@@ -1,4 +1,3 @@
-tellraw @s {"text": "wall_click_check", "color": "aqua"}
 execute as @s[y_rotation=135..-135, scores={pot_placed = ..1}] run scoreboard players set @s pot_direction 1 
 execute as @s[y_rotation=-135..-45, scores={pot_placed = ..1}] run scoreboard players set @s pot_direction 2
 execute as @s[y_rotation=-45..45, scores={pot_placed = ..1}] run scoreboard players set @s pot_direction 3
