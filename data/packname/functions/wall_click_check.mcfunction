@@ -1,5 +1,8 @@
-execute as @s[y_rotation=-45..45] run scoreboard players set @s pot_direction 0 
-execute as @s[y_rotation=45..90] run scoreboard players set @s pot_direction 1
-execute as @s[y_rotation=-112.5..-67.5] run scoreboard players set @s pot_direction 2
-execute as @s[y_rotation=-67.5..-22.5] run scoreboard players set @s pot_direction 3
+tellraw @s {"text": "wall_click_check", "color": "aqua"}
+execute as @s[y_rotation=135..-135, scores={pot_placed = ..1}] run scoreboard players set @s pot_direction 1 
+execute as @s[y_rotation=-135..-45, scores={pot_placed = ..1}] run scoreboard players set @s pot_direction 2
+execute as @s[y_rotation=-45..45, scores={pot_placed = ..1}] run scoreboard players set @s pot_direction 3
+execute as @s[y_rotation=45..135, scores={pot_placed = ..1}] run scoreboard players set @s pot_direction 4
+execute as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function packname:start_ray
 scoreboard players set @s pot_placed 0
+execute as @s[scores={pot_placed = ..1}] run function packname:direction_check

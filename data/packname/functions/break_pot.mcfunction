@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ flower_pot as @s run setblock ~ ~ ~ air
