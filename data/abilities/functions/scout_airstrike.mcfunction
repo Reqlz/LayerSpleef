@@ -1,2 +1,2 @@
-# execute as @e[type=armor_stand,limit=1,tag=airstrike] at @s run summon tnt ~ ~0 ~ {Fuse:30, NoGravity:false,Motion:[0,-1,0]} 
-kill @e[type=armor_stand,tag=airstrike]
+execute as @e[type=armor_stand,limit=1,tag=airstrike] at @s run summon tnt ~ ~20 ~ {Glowing:1b,Silent:1b,Motion:[0d,-20d, 0d],Fuse:50} 
+execute as @e[type=armor_stand,tag=airstrike, limit=1] run kill @s

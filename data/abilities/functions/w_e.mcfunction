@@ -1,1 +1,1 @@
-execute at @s positioned ~ ~1 ~ run fill ~3 ~-2 ~-2 ~3 ~1 ~2 stone
+execute at @s positioned ~ ~1 ~ run fill ~3 ~-2 ~-2 ~3 ~1 ~2 stone keep
