@@ -1,5 +1,6 @@
 {
-    "values": [
-        "abilities:tick"
-    ]
+  "values": [
+    "abilities:tick",
+    "game:tick"
+  ]
 }

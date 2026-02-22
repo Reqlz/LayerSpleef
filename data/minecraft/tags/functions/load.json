@@ -1,5 +1,6 @@
 {
-    "values": [
-      "abilities:load"
-    ]
+  "values": [
+    "abilities:load",
+    "game:load"
+  ]
 }
