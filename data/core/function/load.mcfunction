@@ -4,3 +4,4 @@ scoreboard objectives add pkBest dummy "BestTime"
 scoreboard objectives add respawnTimer dummy "RespawnTimer"
 
 function abilities:instant_wall/load
+function world:game/load
