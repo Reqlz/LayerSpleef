@@ -1,0 +1,1 @@
+execute as @e[tag=map_selection,scores={selected_map=2},limit=1] run clone 399 11 399 433 35 433 -465 -1 -465 replace

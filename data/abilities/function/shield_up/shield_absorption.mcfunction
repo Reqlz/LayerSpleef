@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:snowball] run effect give @a[distance=..2] minecraft:absorption 10 4 true

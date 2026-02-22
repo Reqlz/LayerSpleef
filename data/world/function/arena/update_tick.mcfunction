@@ -1,0 +1,2 @@
+execute unless entity @e[type=armor_stand,tag=arena,tag=!game_started, scores={arenaCountdownTick=..0}] run scoreboard players remove @e[type=armor_stand,tag=arena, limit=1] arenaCountdownTick 1
+execute if entity @e[type=armor_stand,tag=arena,tag=game_started, scores={arenaCountdownTick=..0}] run function world:arena/reset_countdown_tick

@@ -1,0 +1,1 @@
+execute at @a[x=-25,z=-50,dx=100,dz=100] if block ~ ~-1 ~ minecraft:black_concrete run tp @a[distance=..1] -11 -60 6 facing 1 -51 -53

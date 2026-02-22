@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:trident,distance=..120] run particle minecraft:flame ~ ~ ~ 0 0 0 0.2 10 normal

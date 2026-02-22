@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:armor_stand,tag=arena] as @a[distance=..120] if items entity @s weapon.mainhand minecraft:enchanted_book[minecraft:stored_enchantments~[{enchantments:"minecraft:vanishing_curse"}]] run effect give @s minecraft:speed 15 1 true

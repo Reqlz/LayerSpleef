@@ -1,0 +1,2 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=endermite,distance=..120] run summon minecraft:armor_stand ~ ~ ~ {Tags:["totem"]}
+execute at @e[type=armor_stand,tag=totem] run kill @e[type=endermite,distance=..2]

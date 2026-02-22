@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:armor_stand,distance=..120,tag=totem] run effect give @a[distance=..5] minecraft:fire_resistance 2 0 true

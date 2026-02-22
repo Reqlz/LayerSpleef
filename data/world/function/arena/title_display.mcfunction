@@ -1,0 +1,1 @@
+execute if score @e[type=armor_stand,tag=arena,limit=1] arenaCountdownDisplay matches 1.. run title @a title {"text":"Arena starting in: ","color":"gold","bold":true,"extra":[{"score":{"name":"@e[type=armor_stand,tag=arena,limit=1]","objective":"arenaCountdownDisplay"},"color":"red","bold":true}]}

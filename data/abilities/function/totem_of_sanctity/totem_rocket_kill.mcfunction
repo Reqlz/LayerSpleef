@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:armor_stand,tag=totem] run kill @e[type=minecraft:firework_rocket,distance=..5]

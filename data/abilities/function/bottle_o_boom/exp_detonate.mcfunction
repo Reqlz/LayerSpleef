@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:experience_orb,distance=..120] run summon tnt ~ ~ ~ {fuse:0}

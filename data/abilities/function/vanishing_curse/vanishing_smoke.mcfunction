@@ -1,0 +1,1 @@
+execute as @a[distance=..120] at @s if items entity @s weapon.mainhand minecraft:enchanted_book[minecraft:stored_enchantments~[{enchantments:"minecraft:vanishing_curse"}]] run particle minecraft:smoke ~ ~ ~ 2 2 2 0.03 200 normal

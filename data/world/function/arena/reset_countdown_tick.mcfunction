@@ -1,0 +1,2 @@
+execute as @e[type=armor_stand,tag=arena,limit=1] run scoreboard players operation @s arenaCountdownTick = @s arenaCountdownTicksPer
+execute as @e[type=armor_stand,tag=arena,limit=1] run scoreboard players remove @s arenaCountdownDisplay 1
