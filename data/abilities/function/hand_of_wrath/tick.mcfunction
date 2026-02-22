@@ -1,0 +1,4 @@
+function abilities:hand_of_wrath/trident_kill
+function abilities:hand_of_wrath/trident_explode
+function abilities:hand_of_wrath/trident_flame
+function abilities:hand_of_wrath/trident_pull_down

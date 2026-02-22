@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:trident,distance=..120,nbt={inGround:1b}] run summon tnt ~ ~1 ~ {fuse:0}

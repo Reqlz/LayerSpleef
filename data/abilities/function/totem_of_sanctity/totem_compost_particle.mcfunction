@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:armor_stand,distance=..120,tag=totem] run execute at @a[distance=..5] run particle minecraft:composter ~ ~2 ~ 0 0 0 0 1 normal

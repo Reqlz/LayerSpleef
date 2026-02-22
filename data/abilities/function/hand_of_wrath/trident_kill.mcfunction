@@ -1,0 +1,2 @@
+execute at @e[type=armor_stand,tag=arena] run kill @e[type=minecraft:trident,nbt={inBlockState:{Name:"minecraft:barrier"}},distance=..120]
+execute at @e[type=armor_stand,tag=arena] run kill @e[type=minecraft:trident,nbt={inBlockState:{Name:"minecraft:obsidian"}},distance=..120]

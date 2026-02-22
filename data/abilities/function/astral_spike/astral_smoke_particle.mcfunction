@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:spectral_arrow,nbt={inGround:1b},distance=..120] run particle minecraft:campfire_cosy_smoke ~ ~ ~ 0 0 0 0.04 1 normal

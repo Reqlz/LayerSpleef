@@ -1,0 +1,1 @@
+execute at @e[type=armor_stand,tag=arena] run execute at @e[type=minecraft:evoker_fangs,distance=..120] run kill @e[type=spectral_arrow,distance=..5]
