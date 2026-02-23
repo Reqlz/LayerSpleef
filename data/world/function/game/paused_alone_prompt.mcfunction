@@ -1,0 +1,2 @@
+tellraw @s ["",{"text":"You are the only player left. ","color":"yellow","bold":true},{"text":"[Continue Solo]","color":"green","bold":true,"click_event":{"action":"run_command","command":"/trigger gs_player_ctrl set 2"}},{"text":"  "},{"text":"[Exit Match]","color":"red","bold":true,"click_event":{"action":"run_command","command":"/trigger gs_player_ctrl set 1"}}]
+title @s actionbar {"text":"Alone in match: continue solo or exit","color":"gold","bold":true}
